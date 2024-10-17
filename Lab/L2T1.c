@@ -1,13 +1,6 @@
-/*
-=============================================
- Name: L2T1ID2430026302.c
- Author: ZHU Haoming
- Version: 1
- Copyright: NO COPYRIGHT
- Description: Homework
- ============================================= */
 #include <stdio.h>
-int main() {
+int main()
+{
     printf("Number of bytes used to store a char type variable is %d\n", sizeof(char)); // Output.
     printf("Number of bytes used to store a short int type variable is %d\n", sizeof(short));
     printf("Number of bytes used to store an int type variable is %d\n", sizeof(int));

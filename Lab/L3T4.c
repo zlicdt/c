@@ -1,13 +1,6 @@
-/*
-=============================================
- Name: L3T4ID2430026302.c
- Author: ZHU Haoming
- Version: 1
- Copyright: Your copyright notice
- Description: N
- ============================================= */
- #include <stdio.h>
- int main() {
+#include <stdio.h>
+int main()
+{
     int i;
     float j;
     char ch;
