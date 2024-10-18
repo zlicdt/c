@@ -1,5 +1,4 @@
 # C 语言试验
-## Lab
 UIC 24 CDS FOC 作业。
 
 ## 免责声明
@@ -8,3 +7,4 @@ UIC 24 CDS FOC 作业。
 
 ### AD.
 学 G I T, 到[这里](./docs/git-guide.md).
+还有 [this](./docs/看这个.md).
