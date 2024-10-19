@@ -4,3 +4,4 @@
 *.s
 .DS_Store
 .vscode
+build
