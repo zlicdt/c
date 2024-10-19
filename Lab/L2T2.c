@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     short int x, y, z;
     x = 32767;
     y = 3;

@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
    printf("\\\\\"H\te\tl\tl\to\"\\\\\n"); // comments
    return 0;
 }

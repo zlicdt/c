@@ -1,29 +1,23 @@
 #include <stdio.h>
-int calc_even(int input)
-{
+int calc_even(int input) {
     int ret = 0;
-    for (int i = 2; i <= input; i += 2)
-    {
+    for (int i = 2; i <= input; i += 2) {
         ret += i;
     }
     return ret;
 }
-int calc_odd(int input)
-{
+int calc_odd(int input) {
     int ret = 0;
-    for (int i = 1; i <= input; i += 2)
-    {
+    for (int i = 1; i <= input; i += 2) {
         ret += i;
     }
     return ret;
 }
-int main()
-{
+int main() {
     int n;
     printf("Input an integer: ");
     scanf("%d", &n);
-    if (n <= 0)
-    {
+    if (n <= 0) {
         printf("Warning! You should input a positive integer.\n");
         return 0;
     }

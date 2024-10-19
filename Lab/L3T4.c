@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int i;
     float j;
     char ch;

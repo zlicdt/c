@@ -1,7 +1,6 @@
 #include <stdio.h>
 #define square(a, b) (a * a) + (b * b);
-int main()
-{
+int main() {
     int a, b;
     scanf("%d%d", &a, &b);
     int square_sum = square(a, b); // Run marcro

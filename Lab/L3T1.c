@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
   float value1, value2, sum;
   value1 = 15;
   value2 = 30;

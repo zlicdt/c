@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int x = 50, y = 25;
     int temp1, temp2;
     temp1 = x / ++y;

@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int i = 10, j = 5;
     float x = 5.0, y;
     // y = x / i;

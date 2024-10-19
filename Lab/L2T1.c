@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     printf("Number of bytes used to store a char type variable is %d\n", sizeof(char)); // Output.
     printf("Number of bytes used to store a short int type variable is %d\n", sizeof(short));
     printf("Number of bytes used to store an int type variable is %d\n", sizeof(int));

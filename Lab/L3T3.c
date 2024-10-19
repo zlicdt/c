@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int percentage, x;
     char ch1, ch2;
     scanf("%d%c%c%d", &percentage, &ch1, &ch2, &x);

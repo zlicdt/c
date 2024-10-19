@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     float y;
     int x;
     char c = '#';
