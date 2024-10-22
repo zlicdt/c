@@ -13,6 +13,7 @@ int main() {
         if (input == -1) break;
         array[itera] = input;
         itera++;
+        if (itera == 50) break; // 此句后加
     }
     if (itera == 0) {
         printf("Array is empty.\n");
@@ -28,6 +29,8 @@ int main() {
             // 要返回序数，第一次搜索到直接序数赋值给index然后出循环
         }
     }
+    // 亏我还做了溢出处理
+    // 这题给小孩做吧
     if (cnt == 0) {
         printf("%d Not found.\n", search_num);
         return 0;

@@ -29,8 +29,7 @@ int main() {
             if (itera == 0) {
                 printf("Unsuccessful pop operation: Stack is empty\n");
             } else {
-                printf("Popped: ");
-                scanf("%d", &input);
+                printf("Popped: %d\n", array[itera - 1]);
                 array[itera] = 0;
                 itera--;
                 // 执行完，对 status-1
