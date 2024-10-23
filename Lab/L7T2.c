@@ -6,7 +6,6 @@ int main() {
     int search_num;
     int index;
     int cnt = 0;
-    // 继续迭代器的原理
     printf("Please input a sequence of integers (end with -1): ");
     for (;;) {
         scanf("%d", &input);
@@ -30,7 +29,7 @@ int main() {
         }
     }
     // 亏我还做了溢出处理
-    // 这题给小孩做吧
+    // 答案让超过50就寄，还有检查点检查
     if (cnt == 0) {
         printf("%d Not found.\n", search_num);
         return 0;
