@@ -1,9 +1,4 @@
-#include <iostream>
-#include <sstream>
-#include <string>
-#include <cmath>
-#include <iomanip>
-typedef long double ll;
+#include "calc.h"
 // Calculator program that takes in an expression in the format 'number operator number' and returns the result.
 int main() {
     std::string input;
@@ -16,7 +11,7 @@ int main() {
         }
 
         std::istringstream iss(input);
-        ll num1, num2;
+        lld num1, num2;
         char op;
 
         if (!(iss >> num1 >> op >> num2)) {
@@ -24,7 +19,7 @@ int main() {
             continue;
         }
 
-        double result;
+        lld result;
         switch (op) {
             case '+':
                 result = num1 + num2;
@@ -51,6 +46,5 @@ int main() {
         }
         std::cout << "Result: " << result << std::endl;
     }
-
     return 0;
 }
