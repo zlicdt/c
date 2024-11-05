@@ -5,7 +5,7 @@ ifeq ($(CC),)
 $(error "gcc is not installed on this system")
 endif
 
-CFLAGS := -Wall -g
+CFLAGS := -Wall -g -lm
 
 EXTRA_DIR := Extra
 LAB_DIR := Lab
