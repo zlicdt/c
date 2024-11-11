@@ -1,4 +1,6 @@
 # Makefile
+# For makefile to work, gcc must be installed on the system
+# "pacman -S gcc"
 
 CC := $(shell command -v gcc 2>/dev/null)
 ifeq ($(CC),)

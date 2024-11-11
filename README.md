@@ -2,9 +2,19 @@
 UIC 24 CDS FOC 作业。
 
 ## 使用方法
-如果你是 linux 环境而且可以使用 gcc 与 make
+在Unix shell环境下（最好zsh，不过脚本我没测过在bash上能不能运行）
 
-那么执行`make`
+```bash
+./rename.sh
+```
+
+然后输入ID、作者名并选择作业类型，就会自动改名并且写好文件头注释
+
+（Assignment不给看）
+
+并且本仓库支持`make`
+
+在`gcc`和`make`命令可用时，执行`make`
 
 输出会帮助你选择适合自己的命令。
 
