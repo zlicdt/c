@@ -1,4 +1,9 @@
-#include "calc.h"
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+typedef long double lld;
 // Calculator program that takes in an expression in the format 'number operator number' and returns the result.
 int main() {
     std::string input;
@@ -11,34 +16,34 @@ int main() {
         }
 
         std::istringstream iss(input);
-        lld num1, num2;
-        char op;
+        lld _num, __num;
+        char _operator;
 
-        if (!(iss >> num1 >> op >> num2)) {
+        if (!(iss >> _num >> _operator >> __num)) {
             std::cerr << "Invalid input. Please enter in the format 'number operator number'." << std::endl;
             continue;
         }
 
         lld result;
-        switch (op) {
+        switch (_operator) {
             case '+':
-                result = num1 + num2;
+                result = _num + __num;
                 break;
             case '-':
-                result = num1 - num2;
+                result = _num - __num;
                 break;
             case '*':
-                result = num1 * num2;
+                result = _num * __num;
                 break;
             case '/':
-                if (num2 == 0) {
+                if (__num == 0) {
                     std::cerr << "Error: Division by zero." << std::endl;
                     continue;
                 }
-                result = num1 / num2;
+                result = _num / __num;
                 break;
             case '^':
-                result = std::pow(num1, num2);
+                result = std::pow(_num, __num);
                 break;
             default:
                 std::cerr << "Invalid operator. Please use +, -, *, or /." << std::endl;
